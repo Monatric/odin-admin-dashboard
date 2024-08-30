@@ -10,8 +10,8 @@
 
 .container {
   display: grid;
-  /* grid-template-rows: 3fr; */
   grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 8fr;
   min-height: 100vh;
 }
 
@@ -25,4 +25,31 @@
 .nav ul {
   display: grid;
   gap: 1.5rem;
+}
+
+/* header start */
+.header {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.header-top {
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  align-items: center;
+}
+
+.header-bot {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.header-bot-left {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 8fr;
+}
+
+.header-bot-left .user-icon {
+  grid-row: 1 /3 ;
 }
