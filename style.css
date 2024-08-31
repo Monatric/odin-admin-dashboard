@@ -36,6 +36,7 @@
   background-color: var(--primary-clr);
   color: var(--light-clr);
   padding: 1rem;
+  z-index: 2;
 }
 
 .sidebar-header h2 {
@@ -68,6 +69,8 @@
   display: grid;
   grid-template-rows: repeat(2, 1fr);
   padding: 1rem 2rem;
+  box-shadow: 0 0 10px 0px rgba(0,0,0,0.5);
+  z-index: 1;
 }
 
 .header-top {
@@ -127,7 +130,22 @@ button[type="submit"] {
 .header-bot-left {
   display: grid;
   grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 8fr;
+  grid-template-columns: 70px 8fr;
+  align-items: center;
+}
+
+.header-bot-left .user-icon img {
+  width: 60px;
+  height: 60px;
+}
+
+.header-bot-left .user-name {
+  align-self: start;
+}
+
+.user-welcome {
+  font-weight: 700;
+  font-size: 0.75rem;
 }
 
 .header-bot-left .user-icon {
