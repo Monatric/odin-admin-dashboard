@@ -44,6 +44,10 @@
   align-items: center;
 }
 
+.sidebar-header h2 span {
+  padding-right: 6px;
+}
+
 .nav ul li .mdi {
   padding-left: 8px;
   padding-right: 15px;
