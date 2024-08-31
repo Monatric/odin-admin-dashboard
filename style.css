@@ -23,7 +23,7 @@
 .container {
   display: grid;
   grid-template-columns: 225px 4fr;
-  grid-template-rows: 1fr 8fr;
+  grid-template-rows: max(150px, 25%) 2fr;
   min-height: 100vh;
 }
 
