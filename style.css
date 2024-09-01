@@ -218,3 +218,15 @@ input[name="search"] {
 .card-content {
   padding:  2rem;
 }
+
+.secondary { 
+  color: var(--secondary-txt-clr)
+}
+
+.trending-card .user-tag {
+  font-weight: 700;
+}
+
+.trending-card .user-name {
+  font-weight: 400;
+}
