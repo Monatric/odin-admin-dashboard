@@ -172,7 +172,6 @@ input[name="search"] {
 .main-content {
   display: grid;
   grid-template-columns: 2fr max(250px, 15%);
-  grid-template-rows: 1fr 1fr;
   background-color: var(--secondary-clr);
   padding: 1rem 2rem;
   gap: 2rem;
@@ -192,7 +191,7 @@ input[name="search"] {
 
 .project-card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 2rem;
 }
